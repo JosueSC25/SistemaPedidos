@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: rgb(235, 202, 16);
+    height: 100%;
+}
+
+body{
+    background:linear-gradient(
+        rgba(220, 234, 237, .7),
+      rgba(220, 234, 237, .7)
+    ),
+    url(https://img.freepik.com/premium-photo/stack-cardboard-delivery-boxes-parcels-warehouse-concept-background-3d_505080-995.jpg?w=996) repeat;
+}
+
+#form-login{
+    height: 50%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  border-radius: 10px;
+  padding: 32px;
+
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(235, 202, 16);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    background-color: #fff;
+  }
+
+  input{
+    width: 50%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: 1px solid color-light-gray;
+    padding: 10px 15px;
+    color:#8498AF;
+    font-size: .9rem;
+    transition: .4s;
+    
+      &:last-child{
+      margin-bottom: 0;
+    }
+    &:focus{
+      border-color:rgb(43, 119, 226)
+    }
+  }
+
+  [type='submit'],[type='reset']{
+    background-color:rgb(235, 202, 16);
+    color: #fff;
+  }
+
+  button{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    background-color:rgb(235, 202, 16);
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
